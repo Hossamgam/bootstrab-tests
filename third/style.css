@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 5000px;
+}
+.navbar {
+    height: 72px;
+    box-shadow: 1px 1px 5px rgb(186, 184, 184);
+}
+
+.navbar .form-control {
+    width: 750px;
+    height: 50px;
+    
+    
+}
+
+.navbar .nav-udemy {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.search {
+    background-color: rgb(250, 248, 248);
+    padding-left: 50px;
+    margin-left: 15px;
+    border: 1px solid;
+    position: relative;
+
+}
+.navbar .fa-magnifying-glass {
+    position: absolute;
+    left: 240px;
+    color: gray;
+    font-size: 17px;
+    z-index: 1;
+}
+
+.navbar .fa-cart-shopping {
+    color:black;
+    font-size: 20px;
+    padding-top: 10px;
+    padding: 10px;
+
+
+}
+
+.navbar .Teach-on-udemy {
+    margin-left: 10px;
+    color: black !important;
+}
+
+.navbar .udemy-buss {
+    color: black !important;
+}
+
+.nav-item .log {
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 7px 15px;
+    transition: all .2s;
+}
+.nav-item .log:hover {
+    background-color: rgb(247, 241, 241);
+}
+
+.nav-item .btn-dark {
+    border-radius: 0;
+    padding: 7px 11px;
+    margin-left: 7px;
+}
+
+.nav-item .fa-globe {
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 7px;
+    transition: all .2s;
+
+}
+.nav-item .fa-globe:hover {
+    background-color: rgb(247, 241, 241);
+    cursor: pointer;
+}
+
+
+.slide {
+
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+.slide .onee {
+    position: relative;
+    border-top: 1px solid rgb(238, 236, 236);
+    
+
+
+}
+
+.sel-of-cour .ab-s {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+.card .card-img-top {
+    width: 100% !important;
+    height: 30%;
+    object-fit: cover;
+}
+
+.card {
+    height: 300px;
+    border-bottom: 1px solid black;
+    
+}
+
+.card1 {
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    border-radius: 0;
+}
+
+
+.card2 {
+
+    height: 160px;
+    position: absolute;
+    left: 70px;
+    box-shadow: 1px 1px 3px rgb(210, 208, 208);
+
+
+
+}
+
+.sl-color{
+    color: white;
+    background-color: black !important;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+
+
+.sel-of-cour {
+
+    padding: 0 120px;
+}
+
+.sel-of-cour div {
+    margin-bottom: 10px;
+}
+
+.expore {
+    border: 1px solid gray;
+    border-radius: 0;
+    margin-bottom: 10px;
+
+}
+
+.expore:hover {
+    background-color: rgb(230, 226, 226);
+}
+
+.par-color {
+    display: block;
+}
+
+.exp-y-c {
+    padding: 30px;
+}
+
+.sel-of-cour {
+    border: 1px solid rgb(217, 207, 207);
+
+
+}
+
+
+
+
+
+.card .card-body .cov {
+    margin-bottom: 10px ;
+    
+}
+
+.card .card-body .wa {
+
+    margin: 15px 0;
+}
+
+.card .card-body .wa span {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+
+.Development .row {
+   justify-content: center;
+}
+
+.third-sec {
+    margin-bottom: 100px;
+}
+
+.Development .row .col-sm-12 {
+    margin: 0 5px;
+    overflow: hidden;
+    width: 25%
+}
+.Development .row .col-sm-12 img {
+    width: 100%;
+    transition: all .2s;
+   
+    
+}
+
+
+
+
+.desi {
+    
+    margin-top: 50px;
+}
+
+footer .Featured {
+    text-align: start;
+    padding-left: 185px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer .row {
+
+    padding: 0 190px;
+}
+
+footer .row .text-uppercase {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+
+@media (min-width:1200px) and (max-width:1500px) {
+    .navbar {
+        height: 72px;
+        box-shadow: 1px 1px 5px rgb(186, 184, 184);
+    }
+    
+    .navbar .form-control {
+        width: 400px;
+        height: 50px;
+        
+        
+    }
+}
+
+@media (max-width:1200px) and (min-width:1040px) {
+    .navbar .form-control {
+        width: 200px;
+        height: 50px;
+
+        
+        
+    }  
+      .how-lea-sec .card .card-body {
+        font-size: 10px;
+
+    }
+    .sel-of-cour {
+
+    padding: 0 100px;
+    }
+    .card1,.card2 {
+        width: 300px;
+        height: 220px;
+        position: absolute;
+        top: 10px;
+      
+    }
+    
+    
+}
+@media (max-width:1040px) {
+    .card1,.card2 {
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        top: 10px;
+        font-size: 10px;
+        
+      
+    }
+    .navbar .form-control {
+        width: 200px;
+        height: 50px;
+        
+        
+    } 
+       .slide .card1 h2 {
+        font-size: 20px;
+    }
+
+      .sel-of-cour {
+
+    padding: 0 50px;
+    }
+
+    .third-sec .how-lea-sec .card {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    
+}
+
+@media (max-width:782px) {
+     .card1,.card2 {
+        width: 200px;
+        height: 140px;
+        position: absolute;
+        top: 0px;
+        font-size: 10px;
+        
+      
+    }
+    .slide .card1 h2 {
+        font-size: 10px;
+    }
+
+       .how-lea-sec .card .card-body {
+        font-size: 7px;
+
+    }
+        .third-sec .how-lea-sec .card {
+        font-size: 10px;
+        padding: 0;
+        height: 200px;
+    }
+    
+}
+.sel-of-cour {
+
+    padding: 0 50px;
+}
+
+   
+    
+
+@media (max-width:650px) {
+     .card1,.card2 {
+        width: 220px;
+        height: 100px;
+        position: absolute;
+        top: 0px;
+        font-size: 10px;
+        
+      
+    }
+    .slide .card1 h2 {
+        font-size: 10px;
+    }
+
+    footer .row {
+
+    padding: 0 50px;
+}
+
+footer .row .text-uppercase {
+    font-size: 15px;
+}
+
+footer .Featured {
+    text-align: start;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+   .how-lea-sec .card .card-body {
+        font-size: 12px;
+
+
+    }
+        .third-sec .how-lea-sec .card {
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .third-sec .how-lea-sec .card .wa {
+        font-size: 10px;
+    }
+}
+
+
+
+
+

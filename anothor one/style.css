@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: black
+}
+
+
+
+
+
+.navbar  {
+    background-color: black !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 50px;
+}
+.navbar .navbar-brand span {
+    color: tomato;
+}
+
+
+
+
+.container .row .pt-4 ul {
+    list-style: none;
+}
+
+.container .row .pt-4 ul li a {
+    text-decoration: none;
+    color: rgb(230, 224, 224);
+    font-size: 20px;
+    
+}
+
+
+
+.container .row .pt-4 ul li {
+    margin: 10px 0;
+}
+
+.container .row .col-lg-9 h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.container .row .col-lg-9 .row .p1 {
+    color: white;
+}
+.container .row .col-lg-9 .row .p1 span {
+    font-size: 30px;
+    font-weight: 1000;
+}
+.container .row .col-lg-9 .row .p2 {
+    color: rgb(159, 153, 153);
+}
+
+.container .row .col-lg-9 .row .p3,.p4 .span1 {
+    color: rgb(159, 153, 153);
+    border: 1px solid  rgb(159, 153, 153);
+    height: fit-content;
+    margin:0 15px ;
+    padding: 0 5px;
+}
+
+.container .row .jumbotron1 {
+    background-color: black;
+    height: 80vh;
+}
+
+.container .row .jumbotron1 .btn-primary {
+
+    color: rgb(213, 208, 208);
+    font-weight: 500;
+}
+
+.container .row .jumbotron1 a,p {
+    color: white;
+    font-size: 12px;
+}
+.container .row .lock {
+    
+    padding: 50px 0;
+    
+}
+
+.container .row .episodes {
+    background-color: black;
+    color: white;
+}
+.container .row .episodes p {
+    font-size: 14px;
+    
+}
+
+.third-sec {
+    margin-top: 150px;
+    
+
+
+    
+}
+
+.third-sec h1 {
+    color: rgb(153, 145, 145);
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+
+
+
+.third-sec .col-lg-8 .card {
+    background-color: black;
+    
+}
+
+.third-sec .col-lg-8 .card h3 {
+    color: blue;
+}
+
+.fourth-sec .col-lg-8 .card h3 {
+    color:#ffc107;
+}
+
+
+.fith-sec .card {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* hovers */
+
+
+.fith-sec .card img {
+    transition: all 0.5s;
+
+
+}
+.fith-sec .card img:hover{
+    transform: scale(1.1);
+}
+
+.third-sec .col-lg-4,.fith-sec .card,.third-sec .col-lg-8 .card .col-md-5, .third-sec .col-lg-8 .card  {
+    overflow: hidden;
+}
+
+
+
+.third-sec .col-lg-8 .card .col-md-5  .breakingb:hover {
+    transform: scale(1.1);
+   
+}
+
+.third-sec .hidzenberg,.third-sec .col-lg-8 .card .col-md-5  .breakingb {
+    transition: all 0.5s;
+
+
+}
+.third-sec .hidzenberg:hover {
+    transform: scale(1.1);
+
+}
+
+/*  */
+
+
+
+.fith-sec .btn-outline-light {
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+footer {
+    border-top: 1px solid rgb(88, 86, 86);
+}
+
+
+
+
+
+
+@media (max-width:500px) {
+
+    .third-sec h1 {
+        color: rgb(153, 145, 145);
+        font-size: 30px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+    
+}
+
+@media (max-width:992px) {
+    .third {
+        margin-top: 720px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

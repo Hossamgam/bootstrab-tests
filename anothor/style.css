@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.net-bg {
+    height: 95vh;
+    position: relative;
+    border-bottom: 10px solid rgb(155, 153, 153);
+    overflow: hidden;
+}
+
+.b-g {
+    position: absolute;
+    left: -1px;
+    width: 110%;
+    height: 150%;
+    filter: brightness(30%);
+    
+    
+    z-index: -1;
+}
+
+.net-color {
+    font-size: 50px;
+    font-weight: 700;
+    color: red !important;
+}
+
+.navbar-light {
+    padding: 0 150px;
+}
+
+.text-center {
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-height:600px) {
+    .text-center {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .Unlimited {
+        font-size: 20px !important;
+    }
+
+    .Plan-s {
+        font-size: 15px !important;
+    }
+
+    .navbar-light {
+        padding: 0 10px;
+    }
+
+}
+
+
+.Unlimited {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.Plan-s {
+    color: white;
+    font-size: 30px;
+}
+
+.get-star {
+    font-size: 25px;
+    height: 55px;
+
+    color: rgb(153, 5, 5);
+    color: white;
+    padding: 10px 20px;
+}
+
+.email-add {
+    height: 55px;
+    padding-right: 130px;
+    background-color: rgb(45, 44, 44);
+}
+
+
+
+.enjoy-sec {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 10px solid rgb(155, 153, 153);
+
+    
+}
+
+.enjoy {
+    padding-top: 150px;
+    color: white;
+    
+    
+}
+
+.enjoy h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 100px;
+
+}
+.enjoy p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 15px;
+
+}
+
+@media (max-width:1260px) {
+
+    .enjoy-sec img {
+        width: 480px;
+    }
+    .enjoy-sec h1 {
+        
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+
+    .enjoy p {
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width:775px) {
+    .enjoy-sec img {
+        width: 400px;
+    }
+    .enjoy-sec h1 {
+        
+        font-size: 20px;
+        line-height: 40px;
+
+    }
+0
+    .enjoy p {
+        font-size: 10px;
+    }
+
+    .enjoy {
+        padding-top: 30px;
+    }
+} 
+
+@media (max-width:450px) {
+
+    .enjoy h1,p {
+        padding-left: 50px;
+    }
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer ul li {
+    color: white;
+}
+
+
+
+.text-white {
+    height: 500px;
+}
+
+.Questionsss {
+
+    margin-top: 50px !important;
+    
+}
+
+
+
+
